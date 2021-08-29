@@ -3,6 +3,7 @@
 :root {
   --primary-color: #f996df;
   --dark-gray: #6b7280;
+  --off-white: #f3f4f6;
 }
 
 body {
@@ -84,4 +85,15 @@ hr {
   color: var(--dark-gray);
   padding: 1rem 0 0 0;
   text-align: center;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.section {
+  padding: 2rem;
+}
+.ow {
+  background-color: var(--off-white);
 }
